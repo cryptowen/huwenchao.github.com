@@ -108,8 +108,8 @@ stylus:
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
-  type: github
-  repository: git@github.com:yely/yely.github.com.git
+  type: git
+  repo: git@github.com:yely/yely.github.com.git
   branch: master
 
 feed:
