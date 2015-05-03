@@ -1,4 +1,4 @@
-﻿<%- partial('post/title', {item: item, index: false}) %>
+<%- partial('post/title', {item: item, index: false}) %>
 
 <div class="row <% if (post) { %>post<% } else { %>page<% } %>">
 	<!-- cols -->
@@ -24,9 +24,6 @@
 	<%- partial('post/pagination', {page: item}) %>
     </center>
 	</div>
-
-	<!-- share -->
-	<%- partial('post/share', {page: item}) %>
 	
 	<!-- comment -->
 	<%- partial('post/comment', {page: item}) %>

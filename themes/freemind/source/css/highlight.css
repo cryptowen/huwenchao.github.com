@@ -3,7 +3,7 @@
 /* highlight */
 
 pre, .highlight, .gist {  
-  background: #333;
+  background: #333 !important;
   margin: 0.5em 0;
   padding: 1em 2%;
   overflow: auto;
@@ -16,7 +16,7 @@ pre, .highlight, .gist {
   border-style: solid;
   border-color: #ddd;
   border-width: 1px 0;
-  line-height: 22.400000000000002px;
+  line-height: 20px;
 }
 
 code {

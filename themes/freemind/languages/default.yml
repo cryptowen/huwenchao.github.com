@@ -1,7 +1,7 @@
 categories: Categories
 search: Search
 tags: Tags
-tagcloud: Tag Cloud
+tagcloud: "Tag Cloud"
 tweets: Tweets
 prev: Prev
 next: Next
@@ -9,6 +9,7 @@ comment: Comments
 archive_a: Archives
 archive_b: "Archives: %s"
 page: "Page %d"
-recent_posts: Recent Posts
+recent_posts: "Recent Posts"
 description: Description
-read_more: Read More
+read_more: "Read More"
+links: Links

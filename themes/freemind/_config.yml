@@ -31,20 +31,33 @@ links:
     url: https://github.com/wzpan/freemind/
     intro: Freemind's Github repository.
     icon: fa fa-github
-	
+
 widgets:
 - search
 - category
 - tagcloud
 - links
+- weibo
 - map
 
-#### Comment
-duoshuo: 
-  enable: true  ## duoshuo.com
-  short_name: huwenchao    ## duoshuo short name.
-
 rss: atom.xml
-fancybox: true
 favicon: img/logo.png
-google_analytics: UA-49755189-1
+fancybox: true
+duoshuo_shortname: huwenchao
+
+# Analytics
+google_analytics:
+  enable: true
+  siteid: UA-49755189-1
+baidu_tongji:
+  enable: false
+  siteid:
+#### Comment
+# duoshuo:
+#   enable: true  ## duoshuo.com
+#   short_name: huwenchao    ## duoshuo short name.
+#
+# rss: atom.xml
+# fancybox: true
+# favicon: img/logo.png
+# google_analytics: UA-49755189-1
