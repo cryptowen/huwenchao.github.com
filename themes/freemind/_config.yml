@@ -37,8 +37,6 @@ widgets:
 - category
 - tagcloud
 - links
-- weibo
-- map
 
 rss: atom.xml
 favicon: img/logo.png
