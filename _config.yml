@@ -7,7 +7,7 @@ title: 无关风月
 subtitle: 无关风月
 description: 无关风月的博客，分享一些关于技术和思维的心得体会
 author: 无关风月
-email: zjuhwc@gmail.com
+email: me@huwenchao.com
 language: zh-CN
 
 # URL
@@ -109,7 +109,7 @@ stylus:
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:yely/yely.github.com.git
+  repo: git@github.com:huwenchao/huwenchao.github.com.git
   branch: master
 
 feed:

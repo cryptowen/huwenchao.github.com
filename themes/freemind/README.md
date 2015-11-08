@@ -1,6 +1,8 @@
 Hexo-Theme-Freemind
 ===
 
+![screenshots](http://wzpan.github.io/hexo-theme-freemind/images/screenshots.png)
+
 Freemind aims at fully taking advantages of Bootstrap.
 
 * [Demo](http://wzpan.github.io/hexo-theme-freemind/)
@@ -21,6 +23,7 @@ Freemind aims at fully taking advantages of Bootstrap.
   - label - a label with text and specified color;
   - badge - a badge with text;
   - alert - alert messages with text and specified color; 
+* **Local Search Engine** - a build-in local search engine, with the help of [hexo-generator-search](https://github.com/paichyperiondev/hexo-generator-search).
 
 ## Install ##
 
@@ -30,13 +33,19 @@ Freemind aims at fully taking advantages of Bootstrap.
 $ git clone https://github.com/wzpan/hexo-theme-freemind.git themes/freemind
 ```
 
-2) install [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap):
+2) install [hexo-tag-bootstrap](https://github.com/wzpan/hexo-tag-bootstrap) (*optional*):
 
 ``` sh
 $ npm install hexo-tag-bootstrap --save
 ```
 
-3) Create pages
+3) install [hexo-generator-search](https://github.com/paichyperiondev/hexo-generator-search) (*optional*):
+
+``` sh
+$ npm install hexo-generator-search --save
+```
+
+4) Create pages
 
 Freemind offers you the customized Categories, Tags and About pages. But you need to manually create these page at your 'source' folder.
 
@@ -57,8 +66,6 @@ $ hexo new page about
 ```
 
 Note that only About page can be created in that way.
-
-> Some people may argue that I should embed these pages in the theme. This really makes sense, but currently I don't have time to do so. If you know how, **welcome to send me patches**.
 
 ## Enable ##
 
@@ -116,13 +123,16 @@ favicon: favicon.png
 fancybox: true
 duoshuo_shortname:
 
-# Analytics
+# analytics
 google_analytics:
   enable: false
   siteid:
 baidu_tongji:
   enable: false
   siteid:
+
+# Search
+swiftype_key: 
 ```
 
 * **slogan** - slogan display at the index page
@@ -133,6 +143,14 @@ baidu_tongji:
 * **fancybox** - Enable [Fancybox](http://fancyapps.com/fancybox/)
 * **duoshuo_shortname** - DuoShuo ID, if you prefer to use duoshuo instead of Disqus
 * **analytics** - Analytics ID. Supports both Google Analytics and Baidu Tongji.
+* **swiftype_key** - Swifttype key to enable local searching. Leave it blank or comment this line if you want to use build-in local search engine.
+
+If you prefer to use disqus, the setting of disqus should be placed at your **root** `_config.yml`:
+
+```
+# Disqus
+disqus_shortname:
+```
 
 ## Front-Matter ##
 
