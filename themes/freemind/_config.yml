@@ -1,4 +1,4 @@
-﻿slogan: 人生自是有情痴，此恨不关风与月
+﻿slogan: 一技之成，当尽毕生之力
 
 menu:
   - title: Archives
@@ -37,6 +37,7 @@ widgets:
 - category
 - tagcloud
 - links
+- map
 
 rss: atom.xml
 favicon: img/logo.png
