@@ -42,7 +42,6 @@ widgets:
 - category
 - tagcloud
 - links
-- map
 
 rss: atom.xml
 favicon: img/logo.png

@@ -108,9 +108,12 @@ stylus:
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repo: git@github.com:huwenchao/huwenchao.github.com.git
   branch: master
+- type: git
+  repo: git@gitcafe.com:huwenchao/huwenchao.git
+  branch: gitcafe-pages
 
 feed:
   type: atom
