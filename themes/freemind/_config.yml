@@ -1,19 +1,19 @@
 ﻿slogan: 一技之成，当尽毕生之力
 
 menu:
-  - title: Archives
+  - title: 归档
     url: archives
     intro: All the articles.
     icon: fa fa-archive
-  - title: Categories
+  - title: 分类
     url: categories
     intro: All the categories.
     icon: fa fa-folder
-  - title: Tags
+  - title: 标签
     url: tags
     intro: All the tags.
     icon: fa fa-tags
-  - title: About
+  - title: 关于
     url: about
     intro: About me.
     icon: fa fa-user
