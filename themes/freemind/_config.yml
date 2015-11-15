@@ -13,10 +13,15 @@ menu:
     url: tags
     intro: All the tags.
     icon: fa fa-tags
-  - title: 关于
-    url: about
-    intro: About me.
-    icon: fa fa-user
+  - title: 笔记
+    url: mywiki
+    intro: 无关风月的个人笔记
+    icon: fa fa-tasks
+
+  # - title: 关于
+  #   url: about
+  #   intro: About me.
+  #   icon: fa fa-user
 
 links:
   - title: Github
