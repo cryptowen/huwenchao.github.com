@@ -10,6 +10,7 @@ toc: true
 - [iTerm2和tmux结合使用][2]，iTerm2自带的tmux整合功能介绍，神器
 - [tmux: 不用鼠标的高效率开发][3]，一个电子书+视频，讲了很多使用技巧。具体介绍可以看[这个视频][4]。
 
+<!--more-->
 
 ## 安装
 - mac、ubuntu、centos：用homebrew，yum或apt-get安装

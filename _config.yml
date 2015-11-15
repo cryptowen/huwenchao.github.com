@@ -12,7 +12,7 @@ language: zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yely.github.io
+url: http://huwenchao.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -103,7 +103,7 @@ markdown:
 
 # Stylus
 stylus:
-  compress: false
+  compress: true
 
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
