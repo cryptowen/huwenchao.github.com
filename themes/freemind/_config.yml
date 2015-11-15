@@ -19,15 +19,15 @@ menu:
     icon: fa fa-user
 
 links:
-  - title: My Github
-    url: http://www.github.com/yely
+  - title: Github
+    url: http://www.github.com/huwenchao
     intro: My Github account.
     icon: fa fa-github
-  - title: My weibo
+  - title: 微博
     url: http://t.sina.com.cn/zjuhwc
     intro: My sina weibo account.
     icon: fa fa-weibo
-  - title: Freemind
+  - title: Freemind主题
     url: https://github.com/wzpan/freemind/
     intro: Freemind's Github repository.
     icon: fa fa-github
