@@ -36,6 +36,15 @@ links:
     url: https://github.com/wzpan/freemind/
     intro: Freemind's Github repository.
     icon: fa fa-github
+  - title: HaHack
+    url: http://hahack.com/
+    intro: Freemind主题作者的博客
+    icon: fa fa-globe
+  - title: 云风
+    url: http://blog.codingnow.com/
+    intro: 游戏程序员的偶像
+    icon: fa fa-globe
+
 
 widgets:
 - search
